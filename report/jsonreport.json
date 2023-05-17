@@ -1,0 +1,70 @@
+[
+    {
+        "line": 1,
+        "elements": [
+            {
+                "start_timestamp": "2023-03-29T06:24:06.978Z",
+                "line": 9,
+                "name": "This is login scenario or else situations",
+                "description": "",
+                "id": "this-is-the-login-feature-for-orange-hrmm;this-is-login-scenario-or-else-situations;;2",
+                "type": "scenario",
+                "keyword": "Scenario Outline",
+                "steps": [
+                    {
+                        "result": {
+                            "duration": 6634405100,
+                            "status": "passed"
+                        },
+                        "line": 3,
+                        "name": "Login pagee",
+                        "match": {
+                            "location": "com.stepdefinitions.UserDataTableExample.login_pagee()"
+                        },
+                        "keyword": "Given "
+                    },
+                    {
+                        "result": {
+                            "duration": 3191049700,
+                            "status": "passed"
+                        },
+                        "line": 4,
+                        "name": "user enters \"Admin\" and \"admin123\"",
+                        "match": {
+                            "arguments": [
+                                {
+                                    "val": "\"Admin\"",
+                                    "offset": 12
+                                },
+                                {
+                                    "val": "\"admin123\"",
+                                    "offset": 24
+                                }
+                            ],
+                            "location": "com.stepdefinitions.UserDataTableExample.user_enters_and(java.lang.String,java.lang.String)"
+                        },
+                        "keyword": "When "
+                    },
+                    {
+                        "result": {
+                            "duration": 1566270200,
+                            "status": "passed"
+                        },
+                        "line": 5,
+                        "name": "click on the submit buttons",
+                        "match": {
+                            "location": "com.stepdefinitions.UserDataTableExample.click_on_the_submit_buttons()"
+                        },
+                        "keyword": "And "
+                    }
+                ]
+            }
+        ],
+        "name": "This is the login feature for Orange HRMM",
+        "description": "",
+        "id": "this-is-the-login-feature-for-orange-hrmm",
+        "keyword": "Feature",
+        "uri": "file:Feature/UserDataTableExample.feature",
+        "tags": []
+    }
+]

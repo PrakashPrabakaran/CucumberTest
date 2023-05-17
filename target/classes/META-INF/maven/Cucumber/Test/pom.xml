@@ -38,13 +38,19 @@
  </build>
 
  <dependencies>
-  <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-java -->
-  <dependency>
-            <groupId>info.cukes</groupId>
-            <artifactId>cucumber-java</artifactId>
-            <version>1.2.6</version>
-            <scope>test</scope>
-        </dependency>
+	 <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-junit -->
+<dependency>
+    <groupId>info.cukes</groupId>
+    <artifactId>cucumber-junit</artifactId>
+    <version>1.2.5</version>
+    <scope>test</scope>
+</dependency>
+<dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<version>5.3.0</version>
+		</dependency>
+
         <!-- https://mvnrepository.com/artifact/com.thoughtworks.xstream/xstream -->
 <dependency>
     <groupId>com.thoughtworks.xstream</groupId>
@@ -58,24 +64,15 @@
     <artifactId>cucumber-java</artifactId>
     <version>7.11.2</version>
                 <scope>test</scope>
-
 </dependency>
 
+<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
 <dependency>
-            <groupId>info.cukes</groupId>
-            <artifactId>cucumber-java</artifactId>
-            <version>1.2.5</version>
-            <scope>test</scope>
-        </dependency>
-
-
-        <dependency>
-            <groupId>info.cukes</groupId>
-            <artifactId>cucumber-junit</artifactId>
-            <version>1.2.6</version>
-            <scope>test</scope>
-        </dependency>
-
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-junit</artifactId>
+    <version>7.11.2</version>
+    <scope>test</scope>
+</dependency>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
@@ -88,14 +85,6 @@
         <version>4.3.3</version>
          <scope>test</scope> 
 </dependency>
-<!-- https://mvnrepository.com/artifact/junit/junit -->
-<dependency>
-    <groupId>junit</groupId>
-    <artifactId>junit</artifactId>
-    <version>4.13.2</version>
-    <scope>test</scope>
-</dependency>
-
 
 <!-- https://mvnrepository.com/artifact/de.julielab/julielab-java-utilities -->
 <dependency>
@@ -103,9 +92,6 @@
     <artifactId>julielab-java-utilities</artifactId>
     <version>1.6.0</version>
 </dependency>
-
-
-
 
  </dependencies>
 </project>

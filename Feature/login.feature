@@ -1,3 +1,4 @@
+@simplelog
 Feature: This is the login feature for Orange HRM
 Scenario: This is login scenario
 Given User is on login page
